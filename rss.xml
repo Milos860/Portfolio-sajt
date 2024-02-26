@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+	  <title>Lični Portfolio Informacije</title>
+	  <link>LINK_DO_VAŠEG_PORTFOLIA</link>
+	  <description>Ovde pišu informacije o vašem ličnom portfoliu</description>
+		  <item>
+			<title>Portfolio</title>
+			<link>LINK_DO_VAŠEG_PORTFOLIA</link>
+			<description>Ovde piše nešto više o vašim radovima</description>
+		  </item>
+	</channel>
+</rss>

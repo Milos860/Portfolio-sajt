@@ -1,0 +1,60 @@
+.wrapp-projekti{
+    @extend %blok-fix-osnova;
+    background-image: url(/slike/slika-za-projekte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    h2{
+        color: $text-color;
+        font-family: $font;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 3vw;
+        text-shadow: 0px 0px 15px black;
+    }
+    .container-projekti{
+        @include pozicioniranje($fd:none);
+        height: 735px;
+        .blok-projekta{
+            width: 30%;
+            height: 670px;
+            background-color: #404d60f2;
+            border-radius: $border-r;
+            box-shadow: 0px 0px 20px black;
+            overflow: hidden;
+            .krug{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background-color: rgba(64, 77, 96, 0.9490196078);
+                box-shadow: inset 0px 0px 15px black;
+                margin: 20px 0px 0px 20px;
+                float: left;
+            }
+            h2{
+                float: right;
+                color: aliceblue;
+                font-size: 2.5vw;
+                padding-right: 2.7em;
+            }
+            img{
+                width: 91%;
+                height: 36%;
+                border-radius: 10px;
+                margin-left: 4.7%;
+                box-shadow: 0px 0px 20px black;
+            }
+            p{
+                text-align: center;
+                color: $text-color;
+                font-family: $font;
+                padding: 10px 10px 0px 10px;
+                font-size: 25px;
+            }
+        }
+    }
+}
+.container-projekti .blok-projekta:nth-child(2) h2,
+.container-projekti .blok-projekta:nth-child(3) h2 {
+  padding-right: 3.8em;
+}
