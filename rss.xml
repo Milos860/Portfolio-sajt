@@ -2,12 +2,12 @@
 <rss version="2.0">
 	<channel>
 	  <title>Lični Portfolio Informacije</title>
-	  <link>LINK_DO_VAŠEG_PORTFOLIA</link>
-	  <description>Ovde pišu informacije o vašem ličnom portfoliu</description>
+	  <link>https://milos860.github.io/Portfolio-sajt/</link>
+	  <description>Ovde pišu informacije o ličnom portfoliu</description>
 		  <item>
 			<title>Portfolio</title>
-			<link>LINK_DO_VAŠEG_PORTFOLIA</link>
-			<description>Ovde piše nešto više o vašim radovima</description>
+			<link>https://milos860.github.io/Portfolio-sajt/</link>
+			<description>Ovde piše nešto više o radovima</description>
 		  </item>
 	</channel>
 </rss>
