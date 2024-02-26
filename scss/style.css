@@ -17,7 +17,7 @@ body {
 
 header {
   width: 100%;
-  background-image: url(../../slike/pozadina-header.png);
+  background-image: url(../slike/pozadina-header.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 865px;
