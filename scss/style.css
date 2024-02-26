@@ -249,7 +249,7 @@ header .logo2 {
 }
 
 .wrapp-projekti {
-  background-image: url(slike/slika-za-projekte.jpg);
+  background-image: url(../slike/slika-za-projekte.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
