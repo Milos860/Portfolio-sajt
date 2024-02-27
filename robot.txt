@@ -1,6 +1,4 @@
 User-agent: *
-Allow: /
+Disallow: /admin/
+Disallow: /users/
 Sitemap: https://milos860.github.io/Portfolio-sajt/sitemap.xml
-rss: https://milos860.github.io/Portfolio-sajt/rss.xml
-responsive: https://milos860.github.io/Portfolio-sajt/responsive/responsive.css
-css: https://milos860.github.io/Portfolio-sajt/scss/style.css
